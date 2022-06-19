@@ -1,0 +1,251 @@
+/* ======================================= ESTILOS GLOBALES ======================================= */
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial;
+}
+
+html{
+	height: 100vh;
+	background: #283747;
+}
+body{
+	background: #283747;
+}
+table>th,td{
+	color: lightgray;
+}
+.textoGrisClaro{
+	color:lightgray !important;
+}
+
+textarea{
+	resize: none;
+}
+
+/* ============================================================================================= */
+
+/* ESTILOS PARA LA PÁGNIA DEL LOGIN(index) */
+img.imgLogin{
+	height: 100vh;
+}
+
+/* ESTILOS PARA LA PÁGINA DE ADMINISTRADOR */ /* ============================================================================================= *//* ============================================================================================= *//* ============================================================================================= *//* ============================================================================================= */
+div.formLogin{
+	background: #1C3B6B;
+	color: lightgray;
+}
+
+div.margen-superior-usuarios{
+	margin-top: 125px;
+}
+
+div.margen-superior-actualizar-rol{
+	margin-top: 125px;
+}
+
+div.margen-superior-actualizar-usuario{
+	margin-top: 105px;
+}
+
+div.margen-superior-actualizar-inmueble{
+	margin-top: 115px;
+}
+
+div.margen-superior-eliminar-inmueble{
+	margin-top: 125px;
+}
+
+div.margen-superior-administrador{
+	margin-top: 150px;
+}
+
+div.margen-superior-inmuebles-donaciones{
+	margin-top: 120px;
+}
+
+div.margen-superior-asignar-documentos{
+	margin-top: 125px;
+}
+
+div.margen-superior-registros-consultor{
+	margin-top: 125px;
+}
+
+div.margen-superior-consulta-documentos{
+	margin-top: 115px;
+}
+div.margen-superior-actualizar-oferta{
+	margin-top: 130px;
+}
+
+
+.contenedorAdministrador{
+	margin-top: 25px;
+}
+
+div.formOrientacion{
+	height: 100vh;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+div.col-img-administrador{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+div.col-texto-administrador{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+img.imgAdmin{
+	width: 300px;
+	height: 300px;
+}
+
+footer.piePagina{
+	color: lightgray;
+	background: #1C3B6B;
+	height: 70px;
+	font-size: 12px;
+}
+
+/* ESTILOS PARA EL ENCABEZADO */
+div.rolActual{
+	color: lightgray;
+	font-size: 14px;
+	text-align: center;
+}
+
+span#rolActual{
+	font-weight: bold;
+}
+
+a.enlacesNavegacion{
+	color: lightgray;
+}
+
+a.enlacesNavegacion:hover{
+	color: #fff;
+}
+
+a.cerrar{
+	margin-left: 15px !important;
+	color: lightgray;
+	text-transform: uppercase;
+	font-size: 0.8em;
+}
+a.cerrar:hover{
+	text-decoration: underline;
+	color: orange;
+}
+
+nav.fondoBarraNavegacion{
+	background: #1C3B6B;
+}
+
+/* ESTILOS PARA LA PÁGINA DE USUARIOS */
+.margen-superior{
+	margin-top: 150px;
+}
+
+/* ESTILOS PARA LA PÁGINA DE CONSULTOR */
+div.margen-superior-consultor{
+	margin-top: 115px;
+}
+
+.img-slide-dimensiones{
+	height: 400px !important;
+}
+
+/* ESTILOS PARA LA PÁGNIA DE ROLES */
+table thead.tablasEncabezado{
+	color: #fff;
+}
+
+/* ESTILOS PARA LA PÁGNIA DE EDITAR ROLES */
+img.imagenes-formularios{
+	width: 200px;
+	height: 210px;
+}
+
+/* ESTILOS PARA LA PÁGNIA DE EDITAR ROLES */
+div.alert{
+	padding: 7px !important;
+	height: 40px !important;
+}
+
+/* ESTILOS PARA LA PÁGNIA BUSCAR USUARIO */
+button.btn-buscar{
+	margin-left: -20px !important;
+}
+p.buscarUsuario{
+	margin-left: -50px !important;
+}
+
+/* ESTILOS PARA LA PÁGNIA AGREGAR_ACUERDO_ESCRITURA */
+div.alineacionDeImagenes{
+	text-align: center;
+}
+
+input[type="file"].padding-inputFile{
+	padding: 1px !important;
+	padding: 1px !important;
+}
+
+button.btnCancelar{
+	margin-right: -15px !important;
+}
+
+/* ESTILOS PARA LA PÁGNIA REGISTROS_CONSULTOR */
+a.btnBuscarConsultor{
+	margin-bottom: -20px !important;
+	background-color: #34495E !important;
+	border: 1px solid #fff !important;
+	border-radius: 5px !important;
+	padding: 7px !important;
+}
+
+a.btnBuscarConsultor:hover{
+	box-shadow: 0px 0px 3px 1px lightgray;
+	color: lightsalmon;
+}
+
+p.titulos{
+	color: #fff;
+	text-shadow: 0px 0px 7px #000;
+	font-weight: bold;
+	font-size: 1.3em;
+	padding: 7px;
+	background: linear-gradient(to right, #283747, #BFC9CA, #283747);
+}
+
+/* ESTILOS PARA LA PÁGNIA CONSULTA DOCUMENTOS */
+legend.legend{
+	font-size: 1em !important;
+	border-bottom: 1px solid lightgray;
+}
+
+p.nombreDocumentos{
+	font-size: 0.8em;
+}
+
+.tituloParrafosCards{
+	color: darkgray;
+}
+
+/* ESTILOS PARA LA PÁGNIA ACTUALIZAR_INMUEBLES */
+mark.folio,mark.titulos{
+	color: darkblue;
+	border-radius: 5px;
+	margin-left: 3px;
+	padding: 5px;
+}
